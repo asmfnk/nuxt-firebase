@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-firebase",
+  "version": "1.0.0",
+  "description": "My stellar Nuxt.js project",
+  "author": "asmfnk",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.9.2",
+    "@nuxtjs/bulma": "^1.2.1"
+  },
+  "devDependencies": {}
+}
