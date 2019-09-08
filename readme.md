@@ -11,7 +11,7 @@ yarn build
 bash deploy.sh
 
 # こっちは動かない（原因不明）
-# ブラウザで開くと `` と出る
+# ブラウザで開くと `Cannot GET /{your-project}/us-central1/ssr/` と出る
 firebase serve --only functions,hosting
 
 # Firebaseデプロイ
