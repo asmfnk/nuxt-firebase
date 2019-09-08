@@ -19,7 +19,8 @@ firebase deploy
 ```
 
 ## 注意
-cloud functionsにアップロードされるのは `/functions` なのでこのディレクトリでパッケージの追加と `yarn` するのを忘れないように。
+cloud functionsにアップロードされるのは `/functions` なのでこのディレクトリでパッケージの追加と `yarn` するのを忘れないように  
+ `firebase serve --only functions,hosting` が意外と信用ならないので、 `yarn dev` で開発して、Staging環境はFirebaseのプロジェクトをもう一つ作るのがいいと思われる
 
 ## ここまでの構成方法
 nuxtアプリの作成
